@@ -49,9 +49,10 @@ SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 Start a chat with your bot on Telegram and use the following commands:
 * `/start` - Boot up the bot and view instructions.
 * `/add <link or name>` - Track a single artist.
-* `/bulkadd <names/links>` - Add multiple artists separated by commas or new lines.
+* `/bulkadd <names/links>` - Add multiple artists (separated by commas, newlines, or just paste a list of links).
 * `/list` - View all tracked artists.
-* `/remove <name>` - Stop tracking an artist.
+* `/remove <name or link>` - Stop tracking an artist (supports partial name matching and direct Spotify links).
+* `/bulkremove <names/links>` - Remove multiple artists at once.
 * **File Upload:** Simply drag and drop a `.txt`, `.csv`, or `.json` file containing artist names or links into the chat to bulk-import them.
 
 ## 🪟 How to Run on Windows (Invisible & Auto-Start)
