@@ -1,25 +1,34 @@
-# 🎧 Spotify Telegram Release Radar Bot
+🎧 Spotify Telegram Release Radar Bot
 
-A lightweight, highly efficient Telegram bot that acts as your personal Spotify Release Radar. It scans your followed artists every 10 minutes and sends instant push notifications to your Telegram when a new album, single, or feature (`appears_on`) drops.
+A lightweight, highly efficient Telegram bot that acts as your personal Spotify Release Radar. It scans your followed artists every 10 minutes and sends instant push notifications to your Telegram when a new album, single, or feature (appears_on) drops.
 
-## ✨ Features
-* **Lightning Fast:** Polls Spotify every 10 minutes for instant notifications.
-* **Full Coverage:** Catches albums, singles, and collaborations/features.
-* **Smart Database:** Built-in SQLite database prevents duplicate alerts and handles first-time imports gracefully.
-* **Bulk Import:** Add multiple artists at once using comma-separated lists or by dropping `.txt`, `.csv`, or `.json` files directly into the Telegram chat.
-* **Windows Automation:** Includes scripts to run the bot completely invisibly in the background.
+✨ Features
 
-## 📋 Prerequisites
-1. **Python 3.8+** installed on your system.
-2. A **Telegram Bot Token** (Get this from [@BotFather](https://t.me/botfather) on Telegram).
-3. **Spotify API Keys** (Client ID and Client Secret). 
-   * *Note: As of 2026, Spotify requires an active Premium subscription to generate Web API keys.*
+Lightning Fast: Polls Spotify every 10 minutes for instant notifications.
 
-## 🚀 Installation & Setup
+Full Coverage: Catches albums, singles, and collaborations/features.
 
-**1. Clone the repository and navigate to the folder:**
-```bash
-git clone <https://github.com/godninja69/Spotify-Telegram-Release-Bot.git>
+Smart Database: Built-in SQLite database prevents duplicate alerts and handles first-time imports gracefully.
+
+Bulk Import: Add multiple artists at once using comma-separated lists or by dropping .txt, .csv, or .json files directly into the Telegram chat.
+
+Windows Automation: Includes scripts to run the bot completely invisibly in the background.
+
+📋 Prerequisites
+
+Python 3.8+ installed on your system.
+
+A Telegram Bot Token (Get this from @BotFather on Telegram).
+
+Spotify API Keys (Client ID and Client Secret).
+
+Note: As of 2026, Spotify requires an active Premium subscription to generate Web API keys.
+
+🚀 Installation & Setup
+
+1. Clone the repository and navigate to the folder:
+
+git clone https://github.com/godninja69/Spotify-Telegram-Release-Bot.git
 cd Spotify-Telegram-release-bot
 
 2. Create and activate a virtual environment:
